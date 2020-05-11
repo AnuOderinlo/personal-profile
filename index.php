@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php  require_once "template/head.php"; ?>
+   <?php  require_once "template/head.php"; ?>
    <body>
       <!-- THe Menu Bar -->
-   <?php  require_once "template/menu.php"; ?>
+      <?php  require_once "template/menu.php"; ?>
       
 
       <!-- Carosal Background -->
-      <div class="conainer-fluid" id="bg">
+      <div class="container-fluid" id="bg" >
          <div class="row">
             <div class="col" id="img">
                <img src="images/user.png" class="rounded-circle mx-auto d-block" id="pro">
@@ -236,12 +236,5 @@
       
       ?>     
 
-
-     
-
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
    </body>
 </html>
