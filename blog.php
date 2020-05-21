@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php  require_once "template/head.php"; ?>>
+	<?php  require_once "template/head.php"; ?>
 	<body>
 		<!-- THe Menu Bar -->
 		<?php  require_once "template/menu.php"; ?>
@@ -17,5 +17,8 @@
       <?php 
          require_once'template/footer.php'; 
       ?>  
+
+       
+     
 	</body>
 </html>

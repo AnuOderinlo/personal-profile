@@ -8,7 +8,10 @@ var errorPhone = document.getElementById("errorPhone");
 var errorEmail = document.getElementById("errorEmail");
 
 // form validation
+
 // function formValidate() {
+
+
 	/**input name must be letters only	
 	input email must have @ and . in the email
 	input phone must contain
@@ -81,12 +84,14 @@ var errorEmail = document.getElementById("errorEmail");
 	// 	formEmail.style.border = '';
 	// })
 
+
 	// formSubmit.addEventListener('blur', function (argument) {
 	// 	formName.style.border = '';
 	// 	formPhone.style.border = '';
 	// 	formEmail.style.border = '';
 		
 	// })
+
 // }
 
 // formValidate();
@@ -97,6 +102,7 @@ function content() {
 	var name = document.getElementById("myName");
 	name.textContent = "Anuoluwapo Oderinlo";
   return name;
+
 }
 
 // content();

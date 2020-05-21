@@ -10,6 +10,7 @@
         <?php  require_once "template/menu.php"; ?>
          <!-- the banner start here -->
       <div class="container-fluid">
+
          <div class="row">
             <div class="col" id="anuHead">
                <h2>Hi! I'm</h2>
@@ -23,12 +24,14 @@
             </div>
          </div>
          <div class="row">
+
             <div class="col-md-4 col-sm-12 contactProfile">
                <img src="images/user.png">
                <p><strong>Front End Developer<br> Graphics Designer</strong></p>
                <a href="CV.pdf" id="resume">Resume</a>
             </div>
             <aside class="col-md-4 col-sm-12">
+
                <div class="checkMe">
                   <h5>You can contact me on the following social media</h5>
                   <a href="https://www.facebook.com/oderinlo.ezekiel" target="_blank"><img src="images/facebook.png" title="Facebook"></a>
@@ -44,7 +47,9 @@
                   <a href="mailto:oderinloanuoluwapo@gmail.com" target="_blank"><img src="images/email.png" title="Email"></a>
                </div>
             </aside>
+
             <div class="col-md-4 col-sm-12">
+
                <div class="checkMe" id="hireMe">
                   <h3>Hire me!</h3>
                   <p>Do you need a design? Probably you need someone to manage your website or blog. Please request for a quote by filling the form below</p>
@@ -72,11 +77,13 @@
                      <div class="form-group">
                         <label for="phone">Phone Number: <i style="color: red">*</i></label>
                         <input type="text" name="phoneNumber" value="<?php echo $phoneNumber ?>" class="form-control" id="phone">
+
                         <span id="errorPhone"></span>
                      </div>
                      <div class="form-group">
                         <label for="phone">What type of work do you need:</label>
                         <select name="workToDo" class="form-control" id="sel1">
+
                            <option>Gaphics design</option>
                            <option>Web design</option>
                            <option>Website Maintenance/Management</option>
@@ -91,6 +98,7 @@
                         <div class="g-recaptcha form-control" data-sitekey="6LePvmkUAAAAAPPsUfZXPrD-FMWDgAZ-U-O0IRYG"></div>
                      </div> -->
                      <input type="submit" value="submit" name="submit" class="btn btn-primary" id="submit">
+
                   </form>
                </div>
             </div>
